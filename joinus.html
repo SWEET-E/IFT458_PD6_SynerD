@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Join Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <div class="topnav-right">
+            <a href="joinus.html">Join Us</a>
+            <a href="dashboard.html">Dashboard</a>
+        </div>
+    </div>
+
+        <br><br>
+
+    <h1 class="welcometext">Join Today!</h1>
+
+    <div class="loginform">
+        <form action="/action_page.php">
+            <label for="username">Username:</label><br>
+            <input type="text" placeholder="Username" name="username" required><br>
+            <label for="password">Password:</label><br>
+            <input type="text" placeholder="Password" name="password" required><br>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="First Name" value=""><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" placeholder="Last Name" value=""><br>
+            <label>Type of user: </label>
+            <div class="radiocontainer">
+                <input type="radio" id="donor" name="usertype" value="donor">
+                <label for="donor">Donor</label><br>
+                <input type="radio" id="applicant" name="usertype" value="applicant">
+                <label for="applicant">Applicant</label><br>
+            </div>
+            <label for="adr">Address</label><br>
+            <input type="text" id="adr" name="address" placeholder="Street Address"><br>
+            <label for="State">State</label><br>
+            <input type="text" id="state" name="state" placeholder="State"><br>
+            <label for="zip">Zip:</label><br>
+            <input type="text" id="zip" name="zip" placeholder="Zip Code"><br>
+            <label for="phone">Phone</label><br>
+            <input type="text" id="phone" name="phone" placeholder="Phone Number"><br><br>
+            <input type="submit" value="Submit"><br>
+          </form> 
+    </div>
+</body>
+</html>

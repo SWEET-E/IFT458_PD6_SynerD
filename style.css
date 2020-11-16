@@ -1,0 +1,123 @@
+body {
+    background-color: navy;
+}
+
+h1 {
+  color: whitesmoke;
+  font-size: 35px;
+  font-family: 'Source Code Pro', monospace;
+}
+
+p {
+  color: whitesmoke;
+  font-size: 25px;
+}
+
+.logo {
+  float: left;
+}
+.topnav a {
+  float: left;
+  background-color: blue;
+  color: whitesmoke;
+  text-align: center;
+  padding: 10px 20px;
+  margin: 0px 5px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 100px;
+  font-family: 'Source Code Pro', monospace;
+  z-index: 20;
+}
+
+.topnav a:hover {
+  background-color :lightblue;
+  color: whitesmoke;
+}
+
+.topnav-right {
+  float: right;
+}
+
+.row {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.columnone {
+  margin: 10px 10px 15px 10px;
+  float: left;
+  width: 47%;
+  text-align: center;
+  color: whitesmoke;
+  font-family: 'Source Code Pro', monospace;
+  border-radius: 1;
+  border-style: solid;
+  border-color: teal;
+}
+
+.columntwo {
+  margin: 10px 10px 15px 10px;
+  float: right;
+  width: 47%;
+  text-align: center;
+  color: whitesmoke;
+  font-family: 'Source Code Pro', monospace;
+  border-radius: 1;
+  border-style: solid;
+  border-color: teal;
+}
+
+.welcometext {
+  color: whitesmoke;
+  font-family: 'Source Code Pro', monospace;
+  text-align: center;
+}
+
+.columnone:hover {
+  border-color: white;
+}
+
+.columntwo:hover {
+  border-color: white;
+}
+
+.loginbox {
+  height: 400px;
+  width: 300px;
+  border-style: solid;
+  border-color: whitesmoke;
+  border-width: 1px;
+  margin: 0 auto;
+  background-color: tomato;
+  font-family: 'Source Code Pro', monospace;
+  text-align: center;
+}
+
+.loginlogo {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.loginform {
+  color: whitesmoke;
+  font-family: 'Source Code Pro', monospace;
+  text-align: center;
+}
+
+.newuser {
+  font-size: 15px;
+  margin-top: 100px;
+}
+
+.radiocontainer {
+    border-style: solid;
+    border-width: 1px;
+    border-color: whitesmoke;
+    text-align: left;
+    width: 175px;
+    margin: auto;
+}
